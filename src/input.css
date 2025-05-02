@@ -86,7 +86,6 @@
 }
 /* clases personalizadas  */
 @layer utilities{
-    /* resulta que nadie en su sano juicio usaría tailwind sin node.js y frameworks como react, se puede, como estoy haciendo aqui con su .exe pero existen limites como no poder añadir imagenes con rutas dinamicas en mediante clases en el html, la opcion de hacerlo aqui creando clases para las imagenes tampoco es viable para un proyecto como el mio en el que las imagenes van a cambiar continuamente, así que, para no instalar node.js que no se nos requiere para el proyecto, almenos esta entrega, voy a hacerlo con selectores en un css clásico ya que es la mejor opción para cuando en un futuro estas imágenes vengan dadas desde php y no desde las carpetas de la propia web  */
 
     /* .bg-genjibanner {
         background-image: url('home/img/genjibanner.jpg');

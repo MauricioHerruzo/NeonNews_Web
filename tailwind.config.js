@@ -13,3 +13,17 @@ module.exports = {
       },
     },
   };
+
+//basis personalizado
+
+module.exports = {
+  theme: {
+    extend: {
+      flexBasis: {
+        '2/8': '25%',    
+        '3/8': '37.5%',  
+      },
+    },
+  },
+  plugins: [],
+}
